@@ -1,0 +1,7 @@
+code {
+    background-color: #f5f5f5; /* 使用更柔和的淺灰色作為背景色 */
+    color: #d6336c; /* 使用柔和的深玫瑰色作為文字顏色 */
+    padding: 2px 4px ;
+    border-radius: 4px ;
+    font-family: monospace t;
+}
