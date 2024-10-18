@@ -1,0 +1,53 @@
+.ios-list {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #1abc9c; /* 清新的綠松石色背景 */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.ios-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #34495e; /* 深藍灰背景 */
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.ios-item:hover {
+    transform: scale(1.05);
+    background-color: #7f8c8d; /* 滑鼠移到上面時變成灰色 */
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px; /* 改成正方形帶圓角 */
+    margin-right: 20px;
+    border: 2px solid #f39c12; /* 明亮的橙色邊框讓 logo 更突出 */
+}
+
+.label {
+    display: inline-block;
+    background-color: #e74c3c; /* 標籤背景紅色 */
+    color: #fff; /* 標籤文字白色 */
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 20px; /* 更圓的圓角 */
+    margin-right: 10px; /* 和標題保持間距 */
+    text-transform: uppercase; /* 全大寫 */
+}
+
+.title {
+    font-size: 20px;
+    color: #f1c40f; /* 鮮豔的黃色字體 */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
